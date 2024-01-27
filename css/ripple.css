@@ -597,25 +597,26 @@ footer{
     padding-bottom: 5px;
 }
 .cti .cel{
-    display: flex;
-    justify-content: space-between;
+    display: block;
     margin-top: 12%;
 }
 .cti .cel p{
     color: #ffffffe0;
 }
 .cti .cel .lef{
-    width: 40%;
+    width: auto;
 }
 .cti .cel .lef h3{
     font-size: 25px;
 }
 
 .cti .cel .rig{
-    width: 56%;
+    width: auto;
+    margin-top: 5%;
 }
 .cti .cel .rig img{
     width: 100%;
+    border-radius: 8px;
 }
 
 

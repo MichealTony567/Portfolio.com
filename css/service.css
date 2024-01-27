@@ -416,41 +416,68 @@ footer p{
 
 
 
-    .cont{
-        width: auto;
-        height: auto;
-        margin: 7% 0;
-        display: flex;
-        justify-content: center;
-    }
-    .cont .contain{
-        width: 83%;
-    }
-    .contain .col{
-        width: 100%;
-        display: block;
-        margin-bottom: 8%;
-    }
-    .col .lef{
-        width: auto;
-    }
-    .col .lef img{
-        width: 100%;
-        border-radius: 8px;
-    }
-    .col .rig{
-        width: auto;
-        padding: 12px;
-    }
-    .col .rig h2{
-        font-size: 40px;
-        font-weight: bolder;
-        text-align: center;
-    }
-    .col .rig p{
-        text-align: center;
-    }
-    
+
+.cont{
+    width: auto;
+    height: auto;
+    margin: 5% 0;
+    display: flex;
+    justify-content: center;
+}
+.contain{
+    width: 80%;
+}
+.contain .col{
+    width: 100%;
+    display: block;
+    margin-bottom: 5%;
+}
+.col .lef{
+    width: auto;
+}
+.col .lef img{
+    width: 100%;
+    border-radius: 8px;
+}
+.col .rig{
+    width: auto;
+    padding: 7px;
+}
+.col .rig h2{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 0;
+}
+.col .rig p a{ 
+    text-decoration: none;
+    color: #52bdff;
+}
+.col .rig main{
+    width: auto;
+}
+.col .rig main h3{
+    border-bottom: 2px solid rgb(48, 46, 46);
+    margin-bottom: 5%;
+}
+.col .rig main span{
+    display: block;
+    justify-content: safe;
+    margin-top: 10%;
+}
+.col .rig main span p{
+    border: 1px solid black;
+    padding: 8px 23px;
+    border-radius: 50px;
+    transition: 0.3s;
+    margin-top: -3%;
+    display: flex;
+    justify-content: center;
+}
+.col .rig main span p:hover{
+    background: #292b2c;
+    color: #fff;
+}
+
 
 
 
