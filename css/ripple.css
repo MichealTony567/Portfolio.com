@@ -1,0 +1,638 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(34, 34, 34);
+    color: #fff;
+}
+
+
+nav{
+    background: #0f0f0f;
+    height: 80px;
+    width: 100%;
+    color: #fff;
+    position: fixed;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 5px;
+    padding-top: 2%;
+    padding-left: 7%;
+    font-weight: bold;
+}
+label.logo .img-ii{
+    width: 110px;
+    margin-top: -1%;
+}
+nav ul{
+    float: right;
+    list-style: none;
+    box-sizing: border-box;
+    margin-right: 7%;
+}
+
+nav ul span .img-logo{
+    display: none;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 55px;
+    margin: 0 7px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+a.active{
+    border: 2px solid #ffffff;
+    transition: .5s;
+    padding: 12px 23px;
+    border-radius: 30px;
+}
+a.active:hover{
+    scale: 2.5;
+    background: #939ba098;
+}
+a:hover{
+    color: #b6d1e2;
+}
+.checkbtn{
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 38px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+
+.vip{
+    height: 8%;
+}
+
+
+
+
+
+.contain{
+    width: auto;
+    height: 90vh;
+    background: #fff;
+    background-size: 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.contain img{
+    width: 100%;
+}
+
+
+
+
+
+
+.section{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.section .sect{
+    width: 80%;
+}
+.section .sect h2{
+    font-size: 44px;
+    font-weight: bold;
+}
+.section .sect li{
+    list-style: none;
+    font-size: 18px;
+    color: #ffffffe0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.section2{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
+.section2 .secc{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.secc h3{
+    font-size: 23px;
+}
+.secc p{
+    color: #ffffffe0;
+}
+.secc .lef{
+    width: 50%;
+}
+.secc .rig{
+    width: 46%;
+}
+
+
+
+
+
+
+
+.section3{
+    width: auto;
+    margin-top: 25%;
+    display: flex;
+    justify-content: center;
+}
+.section3 .tion{
+    width: 80%;
+}
+.tion h4{
+    font-size: 19px;
+    color: rgb(255, 39, 39);
+    border-bottom: 1px solid #d6d5d5;
+    padding-bottom: 5px;
+}
+.tion .cen{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12%;
+}
+.tion .cen p{
+    color: #ffffffe0;
+}
+.tion .cen .lef{
+    width: 40%;
+}
+.tion .cen .lef h3{
+    font-size: 25px;
+}
+
+.tion .cen .rig{
+    width: 56%;
+}
+
+
+
+
+
+
+
+
+
+
+.section4{
+    width: auto;
+    margin-top: 12%;
+    display: flex;
+    justify-content: center;
+}
+.section4 .cti{
+    width: 80%;
+}
+.cti h4{
+    font-size: 19px;
+    color: rgb(255, 39, 39);
+    border-bottom: 1px solid #d6d5d5;
+    padding-bottom: 5px;
+}
+.cti .cel{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12%;
+}
+.cti .cel p{
+    color: #ffffffe0;
+}
+.cti .cel .lef{
+    width: 40%;
+}
+.cti .cel .lef h3{
+    font-size: 25px;
+}
+
+.cti .cel .rig{
+    width: 56%;
+}
+.cti .cel .rig img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.section5{
+    width: auto;
+    margin-top: 12%;
+    display: flex;
+    justify-content: center;
+}
+.section5 .cct{
+    width: 80%;
+}
+.section5 .cct h2{
+    font-size: 33px;
+    text-align: center;
+}
+.section5 .cct h2 span{
+    color: rgb(255, 39, 39);
+}
+.section5 .cct p{
+    text-align: center;
+}
+.section5 .cct .rig img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+   
+footer{
+    width: auto;
+    margin-top: 5%;
+    height: 8%;
+    background: #000000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 986px){
+
+    label.logo{
+        font-size: 30px;
+        padding-left: 40px;
+        margin-left: 3%;
+    }
+    label.logo .img-ii{
+        width: 110px;
+        padding-top: 0%;
+    }
+    nav ul{
+        float: right;
+        list-style: none;
+        box-sizing: border-box;
+        margin-right: 3%;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+
+
+
+
+    
+.contain{
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+.contain img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 802px) {
+    .container{
+        height: auto;
+    }
+    nav{
+        position: fixed;
+        width: 100%;
+    }
+    .checkbtn{
+        display: block;
+        color: rgb(255, 255, 255);
+        margin-right: 8%;
+    }
+    label.logo{
+        font-size: 30px;
+        padding-left: 1px;
+    }
+    label.logo .img-ii{
+        width: 110px;
+        margin-top: -2%;
+    }
+  
+    ul{
+        position: fixed;
+        width: 90%;
+        height: 100vh;
+        background: #292b2c;
+        top: 64px;
+        left: -90%;
+        text-align: center;
+        padding-top: 5%;
+        transition: all .5s;
+    }
+  
+    nav ul span .img-logo{
+        display: block;
+        width: 100%;
+    }
+  
+    nav ul li{
+        display: block;
+        margin: 30px 0;
+        line-height: 30px;
+    }
+  
+    nav ul li a{
+        font-size: 20px;
+        color: #fff;
+    }
+    a.active{
+        background: none;
+        color: #ffffff;
+        border: 2px solid rgb(255, 255, 255);
+    }
+    #check:checked ~ ul{
+        left: -50px;
+        transition: .5s;
+    }
+
+
+    
+.vip{
+    height: 8%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.contain{
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+.contain img{
+    width: 100%;
+}
+
+
+
+
+
+
+.section{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.section .sect{
+    width: 80%;
+}
+.section .sect h2{
+    font-size: 34px;
+    font-weight: bold;
+}
+.section .sect li{
+    font-size: 18px;
+    color: #ffffffe0;
+}
+
+
+
+
+
+
+
+.section2{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 12%;
+}
+.section2 .secc{
+    width: 80%;
+    display: block;
+}
+.secc h3{
+    font-size: 23px;
+}
+.secc .lef{
+    width: auto;
+}
+.secc .rig{
+    width: auto;
+    margin-top: 7%;
+}
+
+
+
+
+
+
+
+.section3{
+    width: auto;
+    margin-top: 25%;
+    display: flex;
+    justify-content: center;
+}
+.section3 .tion{
+    width: 80%;
+}
+.tion h4{
+    font-size: 19px;
+    color: rgb(255, 39, 39);
+    border-bottom: 1px solid #d6d5d5;
+    padding-bottom: 5px;
+}
+.tion .cen{
+    display: block;
+    margin-top: 12%;
+}
+.tion .cen p{
+    color: #ffffffe0;
+}
+.tion .cen .lef{
+    width: auto;
+    margin-bottom: 7%;
+}
+.tion .cen .lef h3{
+    font-size: 25px;
+}
+
+.tion .cen .rig{
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+.section4{
+    width: auto;
+    margin-top: 12%;
+    display: flex;
+    justify-content: center;
+}
+.section4 .cti{
+    width: 80%;
+}
+.cti h4{
+    font-size: 19px;
+    color: rgb(255, 39, 39);
+    border-bottom: 1px solid #d6d5d5;
+    padding-bottom: 5px;
+}
+.cti .cel{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12%;
+}
+.cti .cel p{
+    color: #ffffffe0;
+}
+.cti .cel .lef{
+    width: 40%;
+}
+.cti .cel .lef h3{
+    font-size: 25px;
+}
+
+.cti .cel .rig{
+    width: 56%;
+}
+.cti .cel .rig img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
