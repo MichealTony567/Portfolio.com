@@ -101,48 +101,71 @@ a:hover{
     justify-content: space-between;
     margin-bottom: 5%;
 }
-.col .lef{
+.contain .coll{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row-reverse;
+    margin-bottom: 5%;
+}
+.contain .colo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.contain .collo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row-reverse;
+    margin-bottom: 5%;
+}
+.lef{
     width: 44%;
 }
-.col .lef img{
+.lef img{
     width: 100%;
     border-radius: 8px;
 }
-.col .rig{
+.rig{
     width: 42%;
     padding: 7px;
 }
-.col .rig h2{
+.rig h2{
     font-size: 40px;
     font-weight: bolder;
     margin-top: 0;
 }
-.col .rig p a{ 
+.rig p a{ 
     text-decoration: none;
     color: #52bdff;
 }
-.col .rig main{
+.rig main{
     width: 80%;
 }
-.col .rig main h3{
+.rig main h3{
     border-bottom: 2px solid rgb(48, 46, 46);
     margin-bottom: 5%;
 }
-.col .rig main span{
+.rig main span{
     display: flex;
     justify-content: space-between;
     margin-top: -5%;
 }
-.col .rig main span p{
+.rig main span p{
     border: 1px solid black;
     padding: 8px 23px;
     border-radius: 50px;
     transition: 0.3s;
 }
-.col .rig main span p:hover{
+.rig main span p:hover{
     background: #292b2c;
     color: #fff;
 }
+
+
+
 
 
 
@@ -160,36 +183,36 @@ a:hover{
     justify-content: space-between;
     width: 80%;
 }
-.section4 .lef{
+.section4 .leff{
     width: 33%;
 }
-.section4 .lef h2{
+.section4 .leff h2{
     font-size: 30px;
     font-family: sans-serif;
     font-weight: bolder;
 }
 
-.section4 .rig{
+.section4 .rigg{
     width: 54%;
 }
-.section4 .rig main{
+.section4 .rigg main{
     margin-bottom: 4%;
 }
-.section4 .rig span{
+.section4 .rigg span{
     display: flex;
     justify-content: start;
     margin-top: -2%;
 }
-.section4 .rig span img{
+.section4 .rigg span img{
     width: 8%;
     height: 5%;
     margin-top: 3%;
 }
 
-.section4 .rig span .sn{
+.section4 .rigg span .sn{
     margin-left: 1%;
 }
-.section4 .rig span .sn h3{
+.section4 .rigg span .sn h3{
     margin-bottom: -7%;
 }
 
@@ -432,39 +455,54 @@ footer p{
     display: block;
     margin-bottom: 5%;
 }
-.col .lef{
+.contain .coll{
+    width: 100%;
+    display: block;
+    margin-bottom: 5%;
+}
+.contain .colo{
+    width: 100%;
+    display: block;
+    margin-bottom: 5%;
+}
+.contain .collo{
+    width: 100%;
+    display: block;
+    margin-bottom: 5%;
+}
+.lef{
     width: auto;
 }
-.col .lef img{
+.lef img{
     width: 100%;
     border-radius: 8px;
 }
-.col .rig{
+.rig{
     width: auto;
     padding: 7px;
 }
-.col .rig h2{
+.rig h2{
     font-size: 40px;
     font-weight: bolder;
     margin-top: 0;
 }
-.col .rig p a{ 
+.rig p a{ 
     text-decoration: none;
     color: #52bdff;
 }
-.col .rig main{
+.rig main{
     width: auto;
 }
-.col .rig main h3{
+.rig main h3{
     border-bottom: 2px solid rgb(48, 46, 46);
     margin-bottom: 5%;
 }
-.col .rig main span{
+.rig main span{
     display: block;
     justify-content: safe;
     margin-top: 10%;
 }
-.col .rig main span p{
+.rig main span p{
     border: 1px solid black;
     padding: 8px 23px;
     border-radius: 50px;
@@ -473,7 +511,7 @@ footer p{
     display: flex;
     justify-content: center;
 }
-.col .rig main span p:hover{
+.rig main span p:hover{
     background: #292b2c;
     color: #fff;
 }
@@ -491,35 +529,35 @@ footer p{
     .section4 .cti{
         display: block;
     }
-    .section4 .lef{
+    .section4 .leff{
         width: auto;
     }
-    .section4 .lef h2{
+    .section4 .leff h2{
         font-size: 30px;
         text-align: center;
     }
     
-    .section4 .rig{
+    .section4 .rigg{
         width: auto;
     }
-    .section4 .rig main{
+    .section4 .rigg main{
         margin-bottom: 4%;
     }
-    .section4 .rig span{
+    .section4 .rigg span{
         display: flex;
         justify-content: start;
         margin-top: -2%;
     }
-    .section4 .rig span img{
+    .section4 .rigg span img{
         width: 15%;
-        margin-top: 3%;
+        margin-top: 5%;
     }
     
-    .section4 .rig span .sn{
+    .section4 .rigg span .sn{
         margin-left: 2%;
         margin-top: -1%;
     }
-    .section4 .rig span .sn h3{
+    .section4 .rigg span .sn h3{
         margin-bottom: -7%;
     }
     
